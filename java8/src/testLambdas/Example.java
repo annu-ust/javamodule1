@@ -51,9 +51,7 @@ public class Example {
                double p=m.power(2, 3);
                System.out.println(p);
 		
-	Shape s=()->{
-	return 0.0;
-};
+	Shape s=()->{return 0.0;};
 double result=s.area();
 System.out.println(result);
 	}

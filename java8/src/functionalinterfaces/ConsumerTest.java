@@ -13,9 +13,9 @@ public class ConsumerTest {
 			                           System.out.println(str);
 		                               };
 		   consumer.accept("i am doing great");
-		   for(String str:strings) {
-			   consumer.accept(str);
-		   }
+		  // for(String str:strings) {
+			//   consumer.accept(str);
+		  // }
 		   printStrings(strings,consumer);
 	}
 	
