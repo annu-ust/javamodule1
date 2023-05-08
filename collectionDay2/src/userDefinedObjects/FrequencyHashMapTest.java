@@ -14,7 +14,8 @@ public class FrequencyHashMapTest {
  for(int i=0;i<words.length;i++) {
 	 Integer integer =  data.get(words[i]);
 	 if(integer !=null) {
-		 count=data.get(words[i]);
+		 count=data.get(words[i]);//count is the vale ie.the integer count of words
+		 
 		 data.put(words[i],++count);
 	 }
 	 else
